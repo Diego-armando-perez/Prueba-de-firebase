@@ -52,3 +52,24 @@ Aqui se hara uso de la primera funcion que nos otorga firebase la cual es la de 
 
 <img width="498" height="145" alt="image" src="https://github.com/user-attachments/assets/0518b4a5-3ca0-45d6-9e4c-6df53bf96897" />
 <img width="313" height="85" alt="image" src="https://github.com/user-attachments/assets/af0b8c46-3085-4bfe-86ba-314f616e70f7" />
+
+Como se puede ver, aqui hay dos valores de carnets, uno que fue con el que se empezo y creo el alumno y el segundo que es el carnet nuevo despues de haberlo cambiado, cuando uno se devuelve a la imagen de firebase se puede observar como se esta leyendo el segundo valor del carnet y esto es porque como dije antes se cambio el valor del carnet abandonado el viejo valor.
+
+Siguiendo con el codigo lo siguiente es la funcionalidad de leer la cual unicamente muestra los valores en secuencia de diccionario que contiene el estudiante
+
+<img width="658" height="56" alt="image" src="https://github.com/user-attachments/assets/2102a922-f894-4308-aefa-836d66605c92" />
+
+Lo especial en esta lectura es que es hecha desde la base de datos de firebase, no desde python.
+
+Finalmente con la ultima funcion, se elimina el estudiante seleccionado y se imprime un mensaje que confirma la accion
+<img width="646" height="62" alt="image" src="https://github.com/user-attachments/assets/eb4b90b1-77f4-443f-adcf-c05c57f72489" />
+<img width="465" height="258" alt="image" src="https://github.com/user-attachments/assets/78a0b164-40bc-460a-b896-239cbd776f6b" />
+
+
+📄 Licencia
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Este proyecto es de código abierto y está disponible para el uso publico
+
+Autor: Diego Armando Pérez Solano
+Fecha de creación: 16 de octubre de 2025
+Nombre del proyecto: Prueba de firebase
